@@ -1,0 +1,173 @@
+/* app css stylesheet */
+
+body {
+    background: url("../img/bg.jpg") 0 0;
+}
+.view-container {
+    background: rgba(250,250,250,.5);
+    padding: 10px;
+    position: relative;
+}
+.group {
+    border: 1px solid #777;
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.group h4 {
+    text-align: center;
+}
+.group .goNext {
+    font-weight: bold;
+}
+.group div span:not(:first-child) {
+    text-align: center;
+}
+.finalResults {
+    position:relative;
+    margin-top: 300px;
+    height: 700px;
+}
+.match {
+    position: absolute;
+    border: 1px solid #777;
+    padding: 10px;
+    display:inline-block;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    background: #fff;
+
+}
+.match h3 {
+    margin: 0 0 5px 0;
+}
+.match0 {
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+}
+.match1 {
+    bottom: 50px;
+    left: 50%;
+    margin-left: -100px;
+}
+.match2 {
+    left: 50%;
+    top: 50%;
+    margin-left: 105px;
+    margin-top: -50px;
+}
+.match3 {
+    left: 50%;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: -305px;
+}
+.match4 {
+    right: 18%;
+    bottom: 22%;
+}
+.match5 {
+    right: 18%;
+    top: 22%;
+}
+.match6 {
+    left: 18%;
+    bottom: 22%;
+}
+.match7 {
+    left: 18%;
+    top: 22%;
+}
+.match14, .match12 {
+    top: 32%;
+}
+.match11, .match9 {
+    top: 55%;
+}
+.match10, .match8 {
+    top: 75%;
+}
+.match15, .match13 {
+    top: 12%;
+}
+
+.match15, .match14, .match10, .match11 {
+    left: 1%;
+}
+.match8, .match13, .match9, .match12 {
+    right: 1%;
+}
+/*
+.match0{
+    background: url("../img/fifa_worlds_cup.png") no-repeat center 0;
+}*/
+
+.cell {
+    border-radius: 3px 0 0 3px;
+    padding: 5px 10px;
+    display: inline-block;
+
+    position: relative;
+    background: #88b7d5;
+    border: 4px solid #c2e1f5;
+}
+.cell.left {
+    margin-left: 30px;
+    border-left: none;
+}
+.cell.right {
+    margin-right: 30px;
+    border-right: none;
+}
+.cell:after, .cell:before {
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.cell.right:after, .cell.right:before {
+    left: 100%;
+}
+.cell.left:after, .cell.left:before {
+    right: 100%;
+}
+
+.cell.right:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #88b7d5;
+    border-width: 15px;
+    margin-top: -15px;
+}
+.cell.right:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-left-color: #c2e1f5;
+    border-width: 20px;
+    margin-top: -20px;
+}
+.cell.left:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: #88b7d5;
+    border-width: 15px;
+    margin-top: -15px;
+}
+.cell.left:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-right-color: #c2e1f5;
+    border-width: 20px;
+    margin-top: -20px;
+}
+.nv-series {
+    font-size: 12px;
+}
+.nv-series.disabled {
+    opacity: .5;
+}
+h1 {
+  border-bottom: 1px solid gray;
+}

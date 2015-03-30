@@ -1,0 +1,85 @@
+.flag {
+    background: url("../img/flags/flags32.png") no-repeat 0 0;
+    display: inline-block;
+    width: 32px;
+    height: 24px;
+    vertical-align: middle;
+}
+.ARG{
+    background-position: 0 -997px;
+}
+.ENG{
+    background-position: 0 -60px;
+}
+.FRA{
+    background-position: 0 -2852px;
+}
+.BRA{
+    background-position: 0 -1605px;
+}
+.GER{
+    background-position: 0 -2309px;
+}
+.NED {
+    background-position: 0 -4612px;
+}
+.ESP {
+    background-position: 0 -2660px;
+}
+.ITA{
+    background-position: 0 -3845px;
+}
+.POL {
+    background-position: 0 -5892px;
+}
+.POR {
+    background-position: 0 -5988px;
+}
+.ENG {
+    background-position: 0 -227px;
+}
+.RUS{
+    background-positon: 0 -6212px;
+}
+.SHE{
+    background-position: 0 -6404px;
+}
+.TUR{
+    background-position: 0 -7109px;
+}
+.UKR{
+    background-position: 0 -7268px;
+}
+.USA{
+    background-position: 0 -7333px;
+}
+.URU{
+    background-position: 0 -7365px;
+}
+.MEX{
+    background-position: 0 -5253px;
+}
+.CHI{
+    background-position: 0 -2020px;
+}
+.COL {
+    background-position: 0 -2118px;
+}
+.ALG{
+    background-position: 0 -2468px;
+}
+.GRE {
+    background-position: 0 -3268px;
+}
+.CRC{
+    background-position: 0 -2148px;
+}
+.SUI{
+    background-position: 0 -1925px;
+}
+.BEL{
+    background-position: 0 -1316px;
+}
+.NGA{
+    background-position: 0 -5445px;
+}

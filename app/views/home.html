@@ -1,0 +1,26 @@
+<h1>Table with results</h1>
+
+<div style="color: red;" ng-if="status">{{ status }}</div>
+
+<div ng-repeat="group in groups"  class="col-md-3">
+    <div class="group">
+        <h4>{{ group.group.letter }}</h4>
+        <div ng-repeat="team in group.group.teams" class="row">
+            <span class="col-md-8" ng-class="{'goNext': $index < 2}">{{ team.team.country }}</span>
+            <span class="col-md-2">{{ team.team.goal_differential }}</span>
+            <span class="col-md-2">{{ team.team.points }}</span>
+        </div>
+    </div>
+</div>
+
+<div class="finalResults">
+    <div ng-repeat="match in resultsTable" class="match match{{ $index }}">
+        <h3>Game {{ match.match_number }}</h3>
+        <span class="flag {{ match.away_team.code }}"></span>
+        <a href="#/team/{{ match.home_team.code }}">{{ match.away_team.code }}</a>
+        -
+        <a href="#/team/{{ match.home_team.code }}">{{ match.home_team.code }}</a>
+        <span class="flag {{ match.home_team.code }}"></span><br />
+        <span><b>{{ match.away_team.goals }}</b><b ng-if="match.away_team.penalties">({{ match.away_team.penalties }})</b> - <b>{{ match.home_team.goals }}</b><b ng-if="match.home_team.penalties">({{ match.home_team.penalties }})</b></span>
+    </div>
+</div>
