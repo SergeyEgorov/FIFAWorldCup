@@ -1,6 +1,7 @@
 # FIFAWorldCup
-Install:
-git clone FIFAWorldCup
-npm install bower
+
+<b>Install:</b><br>
+git clone FIFAWorldCup<br>
+npm install bower<br>
 bower install
 
